@@ -1,0 +1,115 @@
+/* Tailwind directives removed or ensure Tailwind CSS is properly configured in your build tool */
+
+/* Custom global styles */
+@import url('https://fonts.googleapis.com/css2?family=Special+Elite&display=swap');
+
+body {
+  font-family: 'Special Elite', monospace;
+  background: linear-gradient(135deg, #d8bfd8, #e6e6fa); /* lilac gradient */
+  color: #4b5563; /* gray-600 */
+  min-height: 100vh;
+  margin: 0;
+  padding: 0;
+}
+
+h1, h2, h3 {
+  font-family: 'Special Elite', monospace;
+  color: #6b21a8; /* deep lilac */
+  text-shadow: 1px 1px 2px rgba(107, 33, 168, 0.3);
+}
+
+section {
+  background-color: #c7d2fe; /* light purple */
+  border-radius: 0.75rem;
+  box-shadow: 0 8px 16px rgba(107, 33, 168, 0.15);
+  padding: 2rem;
+  margin-bottom: 2rem;
+}
+
+button {
+  font-weight: 600;
+  box-shadow: 0 2px 4px rgba(107, 33, 168, 0.1);
+  background-color: #c4b5fd; /* light lilac */
+  color: #5b21b6; /* medium lilac */
+  border-radius: 0.5rem;
+  transition: background-color 0.3s ease, transform 0.3s ease;
+}
+
+button:hover {
+  background-color: #a78bfa; /* brighter lilac */
+  transform: scale(1.05);
+}
+
+/* Additional styling to evoke organic, light feel */
+.library-icon {
+  font-size: 2.5rem;
+  color: #8b5cf6; /* lilac */
+  margin-bottom: 0.5rem;
+}
+
+/* Responsive improvements */
+@media (max-width: 768px) {
+  section {
+    padding: 1rem;
+    margin-bottom: 1.5rem;
+  }
+  button {
+    width: 100%;
+  }
+}
+
+/* Additional enhancements for attractiveness */
+body {
+  background: linear-gradient(135deg, #d8bfd8, #e6e6fa);
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+}
+
+section {
+  background: linear-gradient(145deg, #e0bbf7, #c4b5fd);
+  border-radius: 1rem;
+  box-shadow: 0 12px 24px rgba(107, 33, 168, 0.3);
+  transition: box-shadow 0.4s ease;
+}
+
+section:hover {
+  box-shadow: 0 20px 40px rgba(107, 33, 168, 0.5);
+}
+
+h1, h2, h3 {
+  letter-spacing: 0.05em;
+  text-transform: uppercase;
+  font-weight: 900;
+}
+
+button {
+  background: linear-gradient(90deg, #a78bfa, #8b5cf6);
+  color: white;
+  font-weight: 700;
+  padding: 0.75rem 1.5rem;
+  border-radius: 0.75rem;
+  box-shadow: 0 4px 8px rgba(139, 92, 246, 0.4);
+  transition: background 0.3s ease, transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+button:hover {
+  background: linear-gradient(90deg, #8b5cf6, #a78bfa);
+  transform: scale(1.1);
+  box-shadow: 0 6px 12px rgba(139, 92, 246, 0.6);
+}
+
+button:focus {
+  outline: none;
+  box-shadow: 0 0 0 3px rgba(139, 92, 246, 0.8);
+}
+
+.library-icon {
+  font-size: 3rem;
+  color: #7c3aed;
+  transition: color 0.3s ease;
+}
+
+.library-icon:hover {
+  color: #a78bfa;
+}
